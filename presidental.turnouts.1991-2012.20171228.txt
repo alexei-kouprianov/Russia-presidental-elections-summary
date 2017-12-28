@@ -1,0 +1,21 @@
+YEAR	VOTERS	VALID	INVALID	TURN.ABS	TURN.REL	WIN.ABS	WIN.REL	WINNER	DATE	SRC	SRC.2
+1991	106484518	77790525	1716757	79507282	0.7666	45552041	0.573	"Б. Ельцин"	1991-06-12	"https://en.wikipedia.org/wiki/Russian_presidential_election,_1991"	NA
+1996	108495023	74515019	1072120	75587139	0.698	26665495	0.3528	"Б. Ельцин"	1996-06-16	"http://www.cikrf.ru/banners/vib_arhiv/president/1996/files/1/1996-1-Svodnaya_CIK.xls"	"http://www.cikrf.ru/banners/vib_arhiv/president/1996/"
+1996	108600730	73926240	780405	74706645	0.694	40208384	0.5382	"Б. Ельцин"	1996-07-03	"http://www.cikrf.ru/banners/vib_arhiv/president/1996/files/2/1996-2-Svodnaya_CIK.xls"	"http://www.cikrf.ru/banners/vib_arhiv/president/1996/"
+2000	109372046	74369773	701003	75070776	0.6864	39740434	0.53	"В. Путин"	2000-03-26	"http://cikrf.ru/banners/vib_arhiv/president/2000/files/2000-Svodnaya_CIK.xls"	"http://cikrf.ru/banners/vib_arhiv/president/2000/"
+2004	108064281	68925785	578824	69504278	0.6438	49565238	0.7131	"В. Путин"	2004-03-14	"http://pr2004.cikrf.ru/etc/svod_otchet.xls"	"http://pr2004.cikrf.ru/"
+2008	107222016	73731116	1015533	74746649	0.6981	52530712	0.7028	"Д. Медведев"	2008-03-02	"http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100022249920&vrn=100100022176412&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100022249920&type=227"	NA
+2012	109860331	70864974	2257205	73122179	0.6534	45602075	0.7131	"В. Путин"	2012-03-04	"http://www.vybory.izbirkom.ru/region/region/izbirkom?action=show&root=1&tvd=100100031793509&vrn=100100031793505&region=0&global=1&sub_region=0&prver=0&pronetvd=null&vibid=100100031793509&type=226"	NA
+
+# "YEAR" : Year of the elections;
+# "VOTERS" : Number of registered voters;
+# "VALID" : Number of valid ballots cast;
+# "INVALID" : Number of invalid ballots cast;
+# "TURN.ABS" : Absolute voters' turnout (VALID+INVALID);
+# "TURN.REL" : Relative voters' turnout (VALID+INVALID)/VOTERS as reported by Central Electoral Committee (sometimes disagrees with re-calculation);
+# "WIN.ABS" : Number of votes cast for the winner;
+# "WIN.REL" : Share of votes cast for the winner WIN.ABS/(VALID+INVALID) (sometimes disagrees with re-calculation);
+# "WINNER" : Winner's name;
+# "DATE" : Date of the elections;
+# "SRC" : Information source URL;
+# "SRC.2" : Information source URL for web-interface when SRC is a downloadable Excel file;
