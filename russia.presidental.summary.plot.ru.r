@@ -4,11 +4,13 @@ plot(pt$YEAR, pt$VOTERS/1000000, type="l",
 ylim=c(0,max(pt$VOTERS/1000000)),
 main="Официальные результаты выборов президентов РСФСР/РФ", xlab="Годы", ylab="Избиратели, млн. чел.")
 points(pt$YEAR, pt$VOTERS/1000000, pch=20)
+points(pt$YEAR, pt$VOTERS/2000000, type="l", lty=2)
+points(pt$YEAR, pt$VOTERS/2000000, pch=20)
 points(pt$YEAR, pt$TURN.ABS/1000000, type="l", col="blue")
 points(pt$YEAR, pt$TURN.ABS/1000000, pch=20, col="blue")
 points(pt$YEAR, pt$WIN.ABS/1000000, type="l", col="red")
 points(pt$YEAR, pt$WIN.ABS/1000000, pch=20, col="red")
-legend("bottomright", lty=c(1,1,1), col=c("black","blue","red"), legend=c("Внесено в списки для голосования","Выдано бюллетеней","Голосовало за победителя"), bty="n")
+legend("bottomright", lty=c(1,2,1,1), col=c("black","black","blue","red"), legend=c("Внесено в списки для голосования","50% избирателей","Выдано бюллетеней","Голосовало за победителя"), bty="n")
 dev.off()
 
 png("russia.pt.1991-2012.rel.official.png", height=500, width=500)
