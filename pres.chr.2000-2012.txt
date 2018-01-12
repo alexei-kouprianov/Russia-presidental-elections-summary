@@ -1,0 +1,25 @@
+YEAR	VOTERS	VALID	INVALID	TURN.ABS	TURN.REL	WIN.ABS	WIN.REL	WINNER	DATE
+2000	13181725	8815109	82916	8898025	0.6750	4942997	0.5555	"В. Путин"	"2000-03-26"
+2004	13409212	7814508	69297	7883805	0.5879	5635617	0.7148	"В. Путин"	"2004-03-14"
+2008	14071196	8420352	112048	8532400	0.6064	5499502	0.6445	"Д. Медведев"	"2008-03-02"
+2012	14110010	8454665	93602	8548267	0.6058	5139438	0.6012	"В. Путин"	"2012-03-04"
+
+# 
+# Russian Presidential Elections 2000-2012, 14 consistently 'honest' regions
+# Presidential elections in Russia 2000-2012. Data from 14 "consistently honest" regions 
+# (Altai krai, Arkhangelsk, Vladimir, Ivanovo, Kostroma, Magadan, Murmansk regions, 
+# Nenets autonomous district, Karelia and Khakassia republics, Ryazan, Sakhalin, 
+# Sverdlovsk, and Yaroslavl regions). 
+# Winners: 2000, 2004, 2012 -- Vladimir Putin, 2008 -- Dmitrii Medvedev.
+# 
+# "YEAR" : Year of the elections;
+# "VOTERS" : Number of registered voters;
+# "VALID" : Number of valid ballots cast;
+# "INVALID" : Number of invalid ballots cast;
+# "TURN.ABS" : Absolute voters' turnout (VALID+INVALID);
+# "TURN.REL" : Relative voters' turnout (VALID+INVALID)/VOTERS as reported by Central Electoral Committee (sometimes disagrees with re-calculation);
+# "WIN.ABS" : Number of votes cast for the winner;
+# "WIN.REL" : Share of votes cast for the winner WIN.ABS/(VALID+INVALID) (sometimes disagrees with re-calculation);
+# "WINNER" : Winner's name;
+# "DATE" : Date of the elections;
+# 
